@@ -1,0 +1,74 @@
+main {
+  background: #444;
+  margin-left: 40vw;
+  min-height: 100vh;
+  padding: 0;
+}
+
+main header {
+  padding: 0;
+  margin: 0;
+}
+
+main header nav {
+  background: #333;
+  border-bottom: 1px solid #000;
+  justify-content: start;
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+main header nav a {
+  background: #222;
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 0.75rem;
+}
+
+main h1 {
+  color: white;
+  font-family: monospace;
+  font-size: 24pt;
+  margin: 1.5rem 2rem;
+  text-align: left;
+}
+
+main article {
+  font-family: monospace;
+  padding: 0 2rem;
+}
+
+main p {
+  color: white;
+  font-size: 12pt;
+}
+
+section#left {
+  background: #222;
+  border-right: 1px solid #000;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40vw;
+}
+
+section#left img {
+  display: block;
+  height: calc(20vw * 1.15);
+  margin: 4rem 0 0;
+  width: 20vw;
+}
+
+section#left h1 {
+  color: white;
+  font-size: 56pt;
+  line-height: 1;
+  margin: -10rem 0 0;
+}
+
+ol li,
+ul li {
+  padding: 0.2rem 0 0.5rem;
+}
