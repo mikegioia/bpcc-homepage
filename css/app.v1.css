@@ -1,0 +1,12 @@
+hr {
+  margin: 2rem 0;
+}
+
+ol li,
+ul li {
+  padding: 0.2rem 0 0.5rem;
+}
+
+p {
+  max-width: 50rem;
+}
